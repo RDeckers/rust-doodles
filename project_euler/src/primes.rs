@@ -41,6 +41,12 @@ impl Primes {
     }
     factors
   }
+  pub fn get(&self, index: usize) -> Option<&u64>{
+    return self.backend.get(index);
+  }
+  pub fn last(&self) -> Option<&u64>{
+    return self.backend.last();
+  }
   pub fn new() -> Primes {
     Primes{
       backend: vec![2],
