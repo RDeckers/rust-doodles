@@ -6,19 +6,3 @@ authors = ["R. Deckers <admin@codingcat.nl>"]
 [lib]
 name = "projecteuler"
 path = "src/lib.rs"
-
-[[bin]]
-name = "problem_1"
-path = "src/bin/problem_0001.rs"
-
-[[bin]]
-name = "problem_2"
-path = "src/bin/problem_0002.rs"
-
-[[bin]]
-name = "problem_3"
-path = "src/bin/problem_0003.rs"
-
-[[bin]]
-name = "problem_4"
-path = "src/bin/problem_0004.rs"
