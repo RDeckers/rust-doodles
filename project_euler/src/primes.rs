@@ -1,9 +1,9 @@
 pub struct Primes{//How do we restrict Idx to integral values?
-  backend: Vec<i64>,
+  backend: Vec<u64>,
 }
 
 impl Primes {
-  fn get_next_prime(&mut self) -> i64{
+  fn get_next_prime(&mut self) -> u64{
     let last_prime = *(self.backend.last().unwrap());
     let mut test_prime = last_prime+1;
     while self.backend.iter().find(|&x| (test_prime % *x) == 0).is_some(){
@@ -17,13 +17,13 @@ impl Primes {
       self.get_next_prime();
     }
   }
-  pub fn fill_while_below(&mut self, max: i64){
+  pub fn fill_while_below(&mut self, max: u64){
     while *self.backend.last().unwrap() < max{
       self.get_next_prime();
     }
   }
-  pub fn factorize(&mut self, mut to_factor: i64) -> Vec<(i64, i64)>{
-    let mut factors = Vec::<(i64, i64)>::new();
+  pub fn factorize(&mut self, mut to_factor: u64) -> Vec<(u64, u64)>{
+    let mut factors = Vec::<(u64, u64)>::new();
     let mut index = 0;
     while to_factor != 1{
       if index >= self.backend.len(){
