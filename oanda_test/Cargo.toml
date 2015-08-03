@@ -1,0 +1,7 @@
+[package]
+name = "oanda_test"
+version = "0.1.0"
+authors = ["R. Deckers <admin@codingcat.nl>"]
+
+[dependencies]
+hyper = "0.5"

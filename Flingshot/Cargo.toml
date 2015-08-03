@@ -1,0 +1,10 @@
+[package]
+name = "flingshot"
+version = "0.1.0"
+authors = ["R. Deckers <admin@codingcat.nl>"]
+
+[dependencies]
+piston = "*"
+piston2d-opengl_graphics = "*"
+piston2d-graphics = "*"
+piston_window = "*"
