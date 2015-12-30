@@ -1,0 +1,4 @@
+[package]
+name = "a_very_big_sum"
+version = "0.1.0"
+authors = ["RDeckers <github.com@codingcat.nl>"]

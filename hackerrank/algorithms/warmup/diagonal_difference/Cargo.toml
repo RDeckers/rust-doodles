@@ -1,0 +1,4 @@
+[package]
+name = "diagonal_difference"
+version = "0.1.0"
+authors = ["RDeckers <github.com@codingcat.nl>"]
