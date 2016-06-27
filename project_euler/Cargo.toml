@@ -6,3 +6,6 @@ authors = ["R. Deckers <admin@codingcat.nl>"]
 [lib]
 name = "projecteuler"
 path = "src/lib.rs"
+
+[dependencies]
+time = "*"
