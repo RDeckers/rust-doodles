@@ -1,2 +1,4 @@
 #don't include stuff made by Geany
 *geany_run_script.sh
+*.lock
+*.lock
